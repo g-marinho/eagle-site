@@ -1,0 +1,43 @@
+main {
+    width: 940px;
+    margin: 0  auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px ; /*espaço entre a label e o campo logo abaixo*/
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px; /*espaço entre o input e o campo logo abaixo*/
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+#botao-enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: goldenrod;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    transition: 1s all;
+}
+
+#botao-enviar:hover {
+    background: yellow;
+    transform: scale(1.2);
+}

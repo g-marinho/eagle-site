@@ -1,0 +1,285 @@
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*CSS HOME*/
+
+body {
+    background: rgb(41, 41, 41);
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
+}
+
+header {
+    background-image: url(../imagens/Header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.container-header {  
+    position: relative;
+    width: 940px;
+    height: 50px;
+    margin: 0 auto;  
+}
+
+.container-header nav{
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.container-header nav li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.container-header nav a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+    display: block;
+    padding: 8px; /* espaçamento entre as palavras (home, contatos, serviços e etc)*/
+}
+
+.container-header nav a:hover{
+    background: white;
+    color: black;
+    transition: color 0.2s linear;
+}
+
+#banner{
+    
+   background: white;
+   width: 75%;
+   margin-top : 30px;
+   margin-left: 150px;
+   margin-right: 150px;
+    
+}
+
+.texto1-content{
+    text-align: center;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.texto1-titulo{
+    color:rgb(40, 211, 241) ;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.texto1-content p{
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    margin: 0 0 1em; 
+}
+
+.card-section{
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.card-section li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.card-section li img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-section li:hover {
+    background-color: black;
+    color: gold;
+    border: 4px solid rgb(95, 255, 47);
+}
+
+.card-section li p {
+    padding-top: 15px;
+}
+
+.texto2-content{
+    text-align: center;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.texto2-titulo{
+    color:rgb(233, 233, 13);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.texto2-content p{
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    margin: 0 0 1em;
+}
+
+.texto-3{
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+    background: rgb(41, 41, 41);
+   
+}
+
+.texto-3 h2{
+    color: white;       
+}
+
+.texto-3 h2:hover{
+    color: black;
+    background: white;
+}
+
+.mapa{
+    width: 940px;
+    margin: 3em auto;
+}
+
+footer{
+    margin: auto;
+    background-color: black;
+    color: yellow;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    clear: both; 
+}
+
+.container-botao {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#botao-home {
+    width: 100%;
+    padding: 15px 0;
+    background: goldenrod;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#botao-home:hover {
+    background: yellow;
+    transform: scale(1.2);
+}
+
+/*CSS CONTATOS*/
+main {
+    width: 940px;
+    margin: 0  auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px ; /*espaço entre a label e o campo logo abaixo*/
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px; /*espaço entre o input e o campo logo abaixo*/
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+#botao-enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: goldenrod;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    transition: 1s all;
+}
+
+#botao-enviar:hover {
+    background: yellow;
+    transform: scale(1.2);
+}
